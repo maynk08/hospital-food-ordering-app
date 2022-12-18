@@ -1,0 +1,164 @@
+body{
+    background: linear-gradient(45deg, rgb(245, 243, 243), transparent);
+font-weight: bolder;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height : 100vh;
+    }
+
+.details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height : 5em;
+}
+
+.select-box{
+    height: 3em;
+    width:8em;
+    text-align: center;
+    align-items: center;
+    border : 2px solid black;
+    border-radius: 5%;
+    font-weight: 200%;
+    background-color:  rgb(241, 237, 233);
+    color:black;
+}
+
+.menu-items{
+    height: 20em;
+    width: 30em;
+    padding: 3em;
+    border: 2px solid black;
+    overflow-y: scroll;
+    margin-top: 40px;
+    margin-left:-60px;
+    display: inline-block;
+    text-align: center;
+}
+
+label{
+    margin: 1em;
+}
+
+.select-box-item{
+    width: 10em;
+    height: 3em;
+    text-align: center;
+    margin: 10px;
+    border : 2px solid black;
+    border-radius: 5%;
+    background-color:  rgb(245, 241, 238);
+    color:black;
+}
+
+.item{
+   
+    margin:1em;
+    display: inline-block;
+       
+}
+
+input{
+    height: 2em;
+    width: 3em;
+    border : 2px solid black;
+    text-align: center;
+    border-radius: 5%;
+    background-color:  rgb(180, 179, 178);
+    color:black;
+}
+
+.date-input{
+    height: 3em;
+    width:8em;
+    background-color:  rgb(241, 237, 233);    
+}
+
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.done-btn{
+        background-color:#0a0a23;
+        color: #fff;
+        border:none;         
+        border-radius:10px; 
+        padding:15px;
+        min-height:30px; 
+        min-width: 120px;
+        margin-left: 2em;
+        margin-top: 1em;
+}
+.orders{
+    height: 20em;
+    width: 30em;
+    padding: 3em;
+    overflow-y: scroll;
+}
+.ordered-items{
+    width: 20em;
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(21, 20, 20);
+    background-color: #fff;
+    text-align: center;
+    margin-top: 3px;
+    padding-top: 1px;
+    padding-left:12px;
+    padding-right: 3px
+}
+
+.delete-btn{
+    border: 2px;
+    align-self: center;
+    padding-right:10px;
+    border:3px solid black
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+
+}
+.searchWrapper {
+    border: 1px solid #0a0a23;
+    border-radius: 4px;
+    min-width: 18em;
+    max-width: max-content;
+    min-height: 22px;
+    padding: 5px;
+    position: relative;
+}
+
+multiSelectContainer input {
+    border: none;
+    margin-top: 3px;
+    width: 20em;
+}
+
+.chip {
+    align-items: center;
+    background: #6f6a6a;
+    border-radius: 11px;
+    color: #fff;
+    display: inline-flex;
+    font-size: 13px;
+    font-style: normal;
+    line-height: 19px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 4px 10px;
+}
